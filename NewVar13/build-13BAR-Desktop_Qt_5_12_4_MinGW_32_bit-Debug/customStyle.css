@@ -1,0 +1,52 @@
+QWidget {
+	background-color:rgb(144, 238, 144);
+	color: rgb(0, 0, 0);
+	border-color: rgb(0, 0, 0);
+}
+
+
+QPushButton{
+	border-style: outset;
+	border-width: 1px;
+	background-color:rgb(50, 205, 50);
+        
+}
+
+QPushButton:hover{
+	background-color:rgb(143, 188, 143);
+}
+
+QLineEdit {
+	border-width: 1px; 
+	border-radius: 4px;
+	border-color: rgb(0,0,0);
+	border-style: inset;
+	padding: 0 8px;
+	background:rgb(50, 205, 50);
+}
+
+QDataEdit {
+	border-width: 1px; 
+	border-radius: 4px;
+	border-color: rgb(0,0,0);
+	border-style: inset;
+	padding: 0 8px;
+	background:rgb(50, 205, 50);
+}
+
+QComboBox {
+   	border-width: 1px; 
+	border-radius: 4px;
+	border-color: rgb(0,0,0);
+	border-style: inset;
+	padding: 0 8px;
+	background:rgb(50, 205, 50);
+}
+
+QTextEdit {
+	border-width: 2px; border-radius: 4px;
+	border-color: rgb(0,0,0);
+	border-style: inset;
+	padding: 0 8px;
+	background:rgb(50, 205, 50);
+}
